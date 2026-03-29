@@ -1,20 +1,12 @@
 # UTH_TOOL
-Tool theo dõi trạng thái đăng ký học phần – UTH
-
-UTH_TOOL is a tool for tracking course registration status. It helps automatically log in, check course status, and notify when changes occur.
+> Tool theo dõi trạng thái đăng ký học phần – UTH **(ĐHGTVT-TPHCM)**
 
 ---
-
 ## 📌 Giới thiệu | Introduction
-**VI:**  
-UTH_TOOL là phần mềm hỗ trợ theo dõi trạng thái học phần của sinh viên.  
+UTH_TOOL là phần mềm hỗ trợ theo dõi trạng thái đăng ký môn học phần cho sinh viên.  
 Công cụ giúp tự động đăng nhập, kiểm tra tình trạng đăng ký học phần và thông báo khi có thay đổi.
 
-**EN:**  
-UTH_TOOL helps students monitor course registration status automatically by logging in, checking course availability, and sending notifications when changes occur.
-
 ---
-
 ## ⚙️ Chức năng | Features
 - Đăng nhập hệ thống sinh viên
 - Kiểm tra tình trạng học phần
@@ -22,12 +14,6 @@ UTH_TOOL helps students monitor course registration status automatically by logg
 - Phát âm thanh khi có cập nhật
 - Menu điều khiển
 
-**Main features:**
-- Student system login
-- Check course status
-- Track course changes
-- Sound notification when updates occur
-- Simple menu interface
 
 ---
 
@@ -42,11 +28,15 @@ UTH_TOOL/
 ├── Playwright_Manager.py    # Điều khiển Playwright
 ├── tingting.wav             # Âm thanh thông báo
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── ...
+
 ```
+
 ## 📦 Requirements
 
-Project này chỉ cần cài Playwright.
+Project này chỉ cần cài Playwright 
+>Trường hợp đơn giản bạn có thể tải file .exe ở đường dẫn phía bên dưới
 
 ### Cài Playwright
 
@@ -68,13 +58,14 @@ python -m playwright install
 
 Nếu không chạy bước này chương trình sẽ lỗi khi mở trình duyệt.
 
-## ⚙️ Quick Setup
+---
+## 🧠 Hướng dẫn sử dụng | Guide
+Bạn có thể tải xuống bản .exe của tool qua đường dẫn **<text>**, chỉ cần click vào là khởi chạy
+>Hoặc cài thủ công yêu cầu cài đặt playwright nếu bạn chưa cài đặt hãy xem hướng dẫn phía trên
 
-```bash
-git clone <repo_url>
-cd UTH_TOOL
-pip install -r requirements.txt
-playwright install
-python Menu.py
-```
+Khởi chạy tệp Menu.py 
+1. Đầu tiên bạn chọn đăng nhâ
+
+
+
 
