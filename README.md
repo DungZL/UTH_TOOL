@@ -43,3 +43,38 @@ UTH_TOOL/
 ├── tingting.wav             # Âm thanh thông báo
 ├── README.md
 └── .gitignore
+```
+## 📦 Requirements
+
+Project này chỉ cần cài Playwright.
+
+### Cài Playwright
+
+```bash
+pip install playwright
+```
+
+### Cài Browser cho Playwright (bắt buộc)
+
+```bash
+playwright install
+```
+
+Hoặc:
+
+```bash
+python -m playwright install
+```
+
+Nếu không chạy bước này chương trình sẽ lỗi khi mở trình duyệt.
+
+## ⚙️ Quick Setup
+
+```bash
+git clone <repo_url>
+cd UTH_TOOL
+pip install -r requirements.txt
+playwright install
+python Menu.py
+```
+
