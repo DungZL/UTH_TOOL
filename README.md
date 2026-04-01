@@ -71,7 +71,7 @@ Riêng nếu bạn cài thủ công thì khởi chạy tệp Menu.py
 5. Điền thông tin học phần muốn theo dõi và học phần thay thế ( Học phần thay thế chỉ để hệ thông có thể auto chuyển đổi qua lại)
 6. Chạy và chờ kết quả nếu hệ thống sẽ có thông báo nếu lớp học phần có chỗ trống
 
-- Nếu xảy ra lỗi chỉ cần thoát ứng dụng hoặc chọn reset khẩn cấp
+- Nếu xảy ra lỗi chỉ cần thoát ứng dụng hoặc chọn reset khẩn cấp, trong thời gian dài có thể chọn xoá sesion để tránh bị hết hạn đăng nhập
 
 ## 👨‍💻 Tác giả
 
